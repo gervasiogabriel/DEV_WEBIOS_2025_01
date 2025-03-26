@@ -1,6 +1,6 @@
 # DEV_WEBIOS_2025_01
-Hello World
 
-SOCORRO WORLD
-
-Aprendendo Git
+- aprender git e github
+- aprender html
+- aprender css
+- aprender js
