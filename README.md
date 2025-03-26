@@ -1,6 +1,3 @@
 # DEV_WEBIOS_2025_01
-Hello World
 
-SOCORRO WORLD
-
-Aprendendo Git
+Desenvolvimento web 2025 Turma N2 Primeiro semestre
