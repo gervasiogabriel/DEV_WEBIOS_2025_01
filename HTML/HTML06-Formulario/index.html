@@ -9,10 +9,69 @@
 <body>
     <!-- Atributo action serve para executar uma ação; enviar o usuário para outro site web, enviar um email de boas-vindas para o usuário, guardar as informações preenchidas no formulário para um banco de dados e/ou chamar alguma ação usando o JavaScript -->
     <form action="">
+
+        <!-- placeholder = inserir um texto auxiliar (invisível) para informar o que o usuário deve fazer no campo input -->
+        <label for="">nome:</label>
+        <input type="text" placeholder="insira o nome de usuário">
+
+        <!-- type radio - três opções -->
+        <!-- para aplicar a configuração do radio é necessário colocar o type como radio e o name igual para todos os inputs -->
+        <br>
+            <input type="radio" name="1"> 
+            <label for="">são paulo</label> <br>
+
+            <input type="radio" name="1">
+            <label for="">grande são paulo</label> <br>
+
+            <input type="radio" name="1">
+            <label for="">campinas</label>
+        <br>
+
+        <!-- checkbox -->
+        <br>
+            <input type="checkbox">
+            <label for="">funk</label>
+        <br>
+            <input type="checkbox">
+            <label for="">pagode</label>
+        <br>
+            <input type="checkbox">
+            <label for="">metal</label>
+        <br>
+            <input type="checkbox">
+            <label for="">trap</label>
+        <br>
+
+        <!-- range -->
+        <br>
+            0km <input type="range"> 100km
+        <br>
+
+        <!-- select -->
+        <br>
+            <select name="" id="">
+                <option value="amarelo">amarelo</option>
+                <option value="branco">branco</option>
+                <option value="vermelho">vermelho</option>
+            </select>
+        <br>
+
+        <!-- datalist -->
+        <br>
+            <input type="text" list="busca">
+
+            <datalist id="busca">
+                <option value="santos"></option>
+                <option value="santo andré"></option>
+                <option value="santo antonio"></option>
+                <option value="campinas"></option>
+            </datalist>
+        <br>
+
         <!-- value = colocar um texto no input quando o valor do atributo type estiver como button -->
+        <br>
         <input type="button" value="enviar">
 
     </form>
-
 </body>
 </html>
