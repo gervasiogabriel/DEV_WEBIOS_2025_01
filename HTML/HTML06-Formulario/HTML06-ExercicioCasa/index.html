@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+
+<body>
+    <h1>Formulário de Feedback Anônimo</h1>
+
+    <form action="" method="post" id="fContato" name="Formulário de Feedback Anônimo">
+            <fieldset>  
+                <legend>Empresa e Colaborador</legend>  
+                <label for="Empresa">Nome da empresa:</label>
+                <input type="text" name="Empresa" placeholder="Insira o nome da empresa" required="required">
+        <br>
+        <br>
+                <label for="Admissão">Data de Admissão:</label>
+                <input type="date" name="Admissão" required="required">
+        <br>
+        <br>
+                <label for="Funcionários">Número de Funcionários:</label>
+                <input type="number" name="Funcionários" placeholder="Ex: 100" required="required">
+        <br>
+        <br>
+                <label for="salario">Salário Mensal em Reais (R$):</label>
+                <input type="number" name="salario" placeholder="Ex: 1500.00" required="required">
+        <br>
+        <br>
+                <label for="">Atualmente está na empresa?:</label>    
+        <br>
+                <input type="radio" name="2" required="required">
+                <label for="2">Sim</label>
+
+        <br>
+                <input type="radio" name="2" required="required">
+                <label for="2">Não</label>
+        <br>
+        <br>
+                <label for="tipo de contratação">Tipo de Contratação:</label>
+                <select name="tipo de contratação" id="" required="required">
+                    <option value=""></option>
+                    <option value="CLT">CLT</option>
+                    <option value="PJ">PJ</option>
+                </select>
+            </fieldset> 
+        <br>
+            <fieldset>
+                    <legend>Quais benefícios você recebe?:</legend>
+
+                    <input type="checkbox" name="beneficios" value="Vale Refeição">
+                    <label for="">Vale Refeição</label>
+        <br>
+                    <input type="checkbox" name="beneficios" value="Vale Alimentação">
+                    <label for="">Vale Alimentação</label>
+        <br>
+                    <input type="checkbox" name="beneficios" value="Vale Transporte">
+                    <label for="">Vale Transporte</label>
+        <br>
+                    <input type="checkbox" name="beneficios" value="Gympass">
+                    <label for="">Gympass</label>
+        <br>
+                    <input type="checkbox" name="beneficios" value="PLR">
+                    <label for="">PLR</label>
+        <br>
+                    <input type="checkbox" name="beneficios" value="Plano de Saúde">
+                    <label for="">Plano de Saúde</label>
+        <br>
+                    <input type="checkbox" name="beneficios" value="Plano Odontológico">
+                    <label for="">Plano Odontológico</label>
+        <br>
+                    <input type="checkbox" name="beneficios" value="Cesta Básica">
+                    <label for="">Cesta Básica</label>
+        <br>
+                    <input type="checkbox" name="beneficios" value="Day off">
+                    <label for="">Day off</label>
+        <br>
+                    <input type="checkbox" name="beneficios" value="Bolsa de Estudos">
+                    <label for="">Bolsa de Estudos</label>
+        <br>
+                    <input type="checkbox" name="beneficios" value="Licença maternidade/paternidade">
+                    <label for="">Licença maternidade/paternidade</label>
+        <br>
+                    <input type="checkbox" name="beneficios" value="Pet friendly">
+                    <label for="">Pet friendly</label>
+        <br>
+                    <input type="checkbox" name="beneficios" value="Empréstimo consignado">
+                    <label for="">Empréstimo consignado</label>
+            </fieldset>
+        <br>
+            <fieldset>
+                    <legend>Feedback</legend>
+                    <label for="">Pontos positivos da empresa:</label><br>
+                    <textarea name="pontos_positivos" id="" minlength="1" maxlength="500"></textarea>
+        <br>
+        <br>
+                    <label for="">Pontos à melhorar:</label><br>
+                    <textarea name="pontos_a_melhorar" id="" minlength="1" maxlength="500"></textarea>
+            </fieldset>
+        <br>
+            <input type="submit" value="enviar"><br>
+            <p>Gabriel Gervásio &copy; 2025 </p>
+    </form>    
+</body>
+</html>
