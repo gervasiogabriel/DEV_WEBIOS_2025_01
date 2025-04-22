@@ -1,77 +1,100 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML06 Formulário</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HTML06 Formulário</title>
+    </head>
 
-<body>
-    <!-- Atributo action serve para executar uma ação; enviar o usuário para outro site web, enviar um email de boas-vindas para o usuário, guardar as informações preenchidas no formulário para um banco de dados e/ou chamar alguma ação usando o JavaScript -->
-    <form action="">
+    <body>
+        <!-- Atributo action serve para executar uma ação; enviar o usuário para outro site web, enviar um email de boas-vindas para o usuário, guardar as informações preenchidas no formulário para um banco de dados e/ou chamar alguma ação usando o JavaScript -->
+        <form action="./boasVindas.html" target="_blank">
 
-        <!-- placeholder = inserir um texto auxiliar (invisível) para informar o que o usuário deve fazer no campo input -->
-        <label for="">nome:</label>
-        <input type="text" placeholder="insira o nome de usuário">
+            <!-- placeholder = inserir um texto auxiliar (invisível) para informar o que o usuário deve fazer no campo input -->
+            <fieldset>
+                <legend>digite o seu nome:</legend>
+                <label for="">nome:</label>
+                <input type="text" placeholder="insira o nome de usuário" required>
+            </fieldset>
 
-        <!-- type radio - três opções -->
-        <!-- para aplicar a configuração do radio é necessário colocar o type como radio e o name igual para todos os inputs -->
-        <br>
-            <input type="radio" name="1"> 
-            <label for="">são paulo</label> <br>
+            <!-- type radio - três opções -->
+            <!-- para aplicar a configuração do radio é necessário colocar o type como radio e o name igual para todos os inputs -->
+            <br>
+            <fieldset>
+                <legend>selecione onde você mora:</legend>
+                <input type="radio" name="1"> 
+                <label for="">são paulo</label> <br>
 
-            <input type="radio" name="1">
-            <label for="">grande são paulo</label> <br>
+                <input type="radio" name="1">
+                <label for="">grande são paulo</label> <br>
 
-            <input type="radio" name="1">
-            <label for="">campinas</label>
-        <br>
+                <input type="radio" name="1">
+                <label for="">campinas</label>
+            </fieldset>
+            <br>
 
-        <!-- checkbox -->
-        <br>
-            <input type="checkbox">
-            <label for="">funk</label>
-        <br>
-            <input type="checkbox">
-            <label for="">pagode</label>
-        <br>
-            <input type="checkbox">
-            <label for="">metal</label>
-        <br>
-            <input type="checkbox">
-            <label for="">trap</label>
-        <br>
+            <!-- checkbox -->
+            <br>
+            <fieldset>
+                <legend>selecine o seu genêro musical:</legend>
+                <input type="checkbox">
+                <label for="">funk</label><br>
 
-        <!-- range -->
-        <br>
-            0km <input type="range"> 100km
-        <br>
+                <input type="checkbox">
+                <label for="">pagode</label><br>
 
-        <!-- select -->
-        <br>
-            <select name="" id="">
-                <option value="amarelo">amarelo</option>
-                <option value="branco">branco</option>
-                <option value="vermelho">vermelho</option>
-            </select>
-        <br>
+                <input type="checkbox">
+                <label for="">metal</label><br>
 
-        <!-- datalist -->
-        <br>
-            <input type="text" list="busca">
+                <input type="checkbox">
+                <label for="">trap</label>
+            </fieldset>
+            <br>
 
-            <datalist id="busca">
-                <option value="santos"></option>
-                <option value="santo andré"></option>
-                <option value="santo antonio"></option>
-                <option value="campinas"></option>
-            </datalist>
-        <br>
+            <!-- range -->
+            <br>
+                <fieldset>
+                    <legend>escolha a distância</legend>
+                    0km <input type="range"> 100km
+                </fieldset>
+            <br>
 
-        <!-- value = colocar um texto no input quando o valor do atributo type estiver como button -->
-        <br>
-        <input type="button" value="enviar">
+            <!-- select -->
+            <br>
+            <fieldset>
+                <legend>escolha uma cor</legend>
+                <select name="" id="">
+                    <option value="amarelo">amarelo</option>
+                    <option value="branco">branco</option>
+                    <option value="vermelho">vermelho</option>
+                </select>
+            </fieldset>
+            <br>
 
-    </form>
-</body>
+            <!-- datalist -->
+            <br>
+            <fieldset>
+                <legend>escolha uma cidade</legend>
+                <input type="text" list="busca">
+
+                <datalist id="busca">
+                    <option value="santos"></option>
+                    <option value="santo andré"></option>
+                    <option value="santo antonio"></option>
+                    <option value="campinas"></option>
+                </datalist>
+            </fieldset>
+            <br>
+            <br>
+
+            <!-- Area para grande quanidade de teto
+                cols > coluna
+                rows > linhas -->
+                <textarea cols="120" rows="10"></textarea>
+
+            <!-- value = colocar um texto no input quando o valor do atributo type estiver como button -->
+            <br>
+            <input type="submit" value="enviar">
+        </form>
+    </body>
 </html>
