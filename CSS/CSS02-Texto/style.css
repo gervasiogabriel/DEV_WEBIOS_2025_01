@@ -1,0 +1,22 @@
+h1{
+    /* cor do texto usando decimal */
+    color: rgb(0, 0, 0); /* red, green, blue */
+
+    /* cor do texto usando hexadecimal */
+    background-color:#808000;
+
+    font-size: 33px;
+}
+
+body{
+    font-family: "Sansation", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    line-height: 25px;
+    text-align: center;
+}
+
+h2{
+    text-shadow: 2px 2px 5px #A9A9A9;
+    /* deslocamento horizontal da sombra, deslocamento vertical da sombra, raio do borrado (opcional) e cor */
+}
