@@ -1,0 +1,14 @@
+body{
+    background-color: antiquewhite;
+}
+
+#p1{
+    /* largura da borda */
+    border-width: 3px;
+
+    /* cor da borda */
+    border-color: steelblue;
+    
+    /* estilo de borda */
+    border-style: inset;
+}
