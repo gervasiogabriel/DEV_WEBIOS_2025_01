@@ -1,7 +1,3 @@
-body{
-    background-color: antiquewhite;
-}
-
 #p1{
     /* largura da borda */
     border-width: 3px;
@@ -11,4 +7,20 @@ body{
     
     /* estilo de borda */
     border-style: inset;
+}
+
+img{
+    /* altura */
+    height: 150px;
+
+    /* largura */
+    width: 150px;
+}
+
+body{
+    background-image: url("./floresta.jpg");
+    background-size: cover;
+
+    /* fixed e scroll */
+    background-attachment: fixed;
 }
