@@ -1,0 +1,16 @@
+body{
+    background-color: antiquewhite;
+}
+
+#d1{
+    border: 1px solid #6495ED;
+    
+    /* espaço interno */
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#d2{
+    border: 1px solid #6495ED;
+    padding: 20px;
+}
