@@ -1,16 +1,41 @@
 body{
     background-color: antiquewhite;
 }
-
+*{
+    margin: auto;
+    width: 90%;
+}
 #d1{
     border: 1px solid #6495ED;
     
     /* espaço interno */
     padding: 10px;
-    margin-bottom: 20px;
+
+    /* espaço externo */
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+    /* top, right, bottom, left */
+    /* margin: 50px 40px 90px 25px; */
+
+    /* top bottom, right left - formato cruz */
+    /* margin: 90px 10%; */
+
+    /* top, right e bottom, left */
+    /* margin: 20px 5% 1.5rem; */
+
+    /* top right bottom left - mesmo px para os 4 lados*/
+    /* margin: 25px; */
 }
 
 #d2{
     border: 1px solid #6495ED;
-    padding: 20px;
+    
+    /* padding (sem acompanhamento de outra propriedade) aplico o mesmo px para os 4 lados */
+    padding: 10px;
+}
+
+img{
+    height: 250px;
+    width: 180px;
 }
