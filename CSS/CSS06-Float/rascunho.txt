@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style.css">
+        <title>CSS Aula 06</title>
+    </head>
+
+    <body>
+        <div>
+            <img src="./IMG/KRATOS.webp" alt="" style="width: 250px; height: 250px; float: left;">
+            
+            <p style="border: 2px solid #8B0000; margin-left: 270px;">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde iure explicabo eum incidunt sequi perspiciatis, eos, veniam nesciunt aliquam assumenda nemo illum enim nisi consectetur obcaecati placeat nam repellat eveniet?
+            </p>
+
+            <p style="clear: both;">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est corporis minus labore, ipsa nam quibusdam facere dolore placeat necessitatibus cumque aliquam. Aspernatur explicabo dicta repellat ea, voluptates adipisci doloribus eum?
+            </p>
+        </div>
+    </body>
+</html>
