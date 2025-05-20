@@ -2,12 +2,27 @@
     /* Vou trabalhar com flexbox */
     display: flex;
     flex-direction: row;
+    
     /* evitar o overflow / evitar que o conteudo ultrapasse a largura da tela */
-    flex-wrap: wrap-reverse;
+    flex-wrap: wrap;
+
+    /* alinhar elementos no eixo horizontal */
+    justify-content: space-evenly;
+    border: 2px solid black;
+    height: 100px;
+
+    /* alinhar no eixo vertical - se eu quiser usar align-item: stretch; a altura e largura n podem existir no código, caso exista, precisa estar comentado */
+    align-items: stretch;
 }
 
 .itens{
-    border: 1px solid black;
+    border: 1px solid #556b2f;
     width: 50px;
     height: 50px;
+}
+
+.div1:hover{
+    /* width: 100px; */
+    flex-grow: 0.35;
+    transition: 3s;
 }
