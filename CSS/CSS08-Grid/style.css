@@ -41,3 +41,10 @@ body{
     border: 1px solid #4682B4;
     font-size: 250%;
 }
+
+#item1{
+    /* referente ás linhas verticais */
+    grid-column: 1 / 3;
+    /* referente ás linhas horizontais */
+    grid-row: 1 / 3;
+}
