@@ -4,7 +4,7 @@ const ano = 2010
 console.log("hello world") // apresentar uma mensagem
 console.clear("") // limpar
 
-// variaveis
+// VARIAVEIS
 var numero1 = 192 // inicializar uma variavel
 console.log(numero1)
 
@@ -17,7 +17,7 @@ idade = 89 // iniciar a variavel em um outra parte do codigo
 console.log(idade)
 
 
-ano = 1998
+//ano = 1998
 const PI = 3.14
 
 //textos - strings
@@ -29,8 +29,50 @@ console.log(nome2)
 console.log(nome3)*/
 console.log(nome, nome2, nome3)
 
-VAR // é flexivel e com menos regras {posso alterar o valor de uma var e recriar a mesma em outras partes do código}
+console.log("olá", "papai") // CONCATENAR1
 
-LET // você não pode recriar a mesma em outras partes do código com o mesmo nome, mas pode chamar e alterar o valor inicial 
+console.log("o aluno " + nome + " e o aluno " + nome2 + " tem um total de " + nome3 + " dinheiros ") // CONTATENAR 2
 
-CONST // você não pode recriar a mesma em outras partes do código e nao pode alterar o valor inicial dela garantindo a confiança do dado que está sendo utilizado no decorrer do seu código
+
+// TEMPLATE STRING
+console.log(`o aluno ${nome} e o aluno ${nome2} tem um total de ${nome3} dinheiros`) // CONCATENAR 3
+
+//VAR // é flexivel e com menos regras {posso alterar o valor de uma var e recriar a mesma em outras partes do código}
+
+//LET // você não pode recriar a mesma em outras partes do código com o mesmo nome, mas pode chamar e alterar o valor inicial 
+
+//CONST // você não pode recriar a mesma em outras partes do código e nao pode alterar o valor inicial dela garantindo a confiança do dado que está sendo utilizado no decorrer do seu código
+
+console.log(10 / 0)
+console.log(-6 / 0)
+
+// OPERADORES ARITMÉTICOS
+var valor1 = 5
+var valor2 = 5
+console.log(valor1 + valor2)
+console.log(valor1 - valor2)
+console.log(valor1 * valor2)
+console.log(valor1 / valor2)
+console.log(valor1 ** valor2)
+/*console.log(valor1 % valor2)
+console.log(valor1 ++ valor2)
+console.log(valor1 -- valor2)*/
+
+//OPERADORES DE COMPARAÇÃO (RELACIONAIS)
+console.log(5 == 5)
+console.log(5 > 5)
+console.log(22 < 8)
+console.log( 22 >= 22)
+console.log(22 != 23)
+console.log('a' == 'a')
+console.log(true == false)
+console.log(true === 'true') // boolean e o outro é txt > string
+console.log(true != 'false') // true
+
+// OPERADORES LÓGICOS
+let temCamisa = false
+let temCracha = true
+console.log(temCamisa);
+console.log(temCracha);
+console.log(temCamisa == true && temCracha == true);
+console.log(temCamisa == true || temCracha == true);
