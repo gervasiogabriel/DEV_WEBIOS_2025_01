@@ -76,3 +76,24 @@ console.log(temCamisa);
 console.log(temCracha);
 console.log(temCamisa == true && temCracha == true);
 console.log(temCamisa == true || temCracha == true);
+
+// OPERADOR DE ATRIBUiÇÃO
+var x = 3
+var y = 2
+x = x + y
+// x += y formato contraido
+// x = 3 + 2
+console.log (x)
+
+x = 720
+console.log(x);
+// log > para mostrar resultados, mensagens do sistema
+// clear > para limpar console e deixar disponível para novas mensagens 
+console.clear()
+
+console.log("está tudo limpo");
+console.log("olá mundo");
+
+console.error("não use essa tela, você pode ser punido por isso");
+
+console.warn("mas apresenta uma mensagem em amarelo");
