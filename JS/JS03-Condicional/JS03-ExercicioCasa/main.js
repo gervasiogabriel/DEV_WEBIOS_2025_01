@@ -1,5 +1,5 @@
-var numero1 = 6
-var numero2 = 8
+var numero1 = 5
+var numero2 = 9
 
 if (numero1 > numero2){
     console.log("numero1 é maior que numero2")
