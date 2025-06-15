@@ -5,12 +5,14 @@ if(numeroTabuada == 2){
         console.log(`${numeroTabuada} X ${i} = ${numeroTabuada * i}`)
     }
 
-}else if(numeroTabuada == 3){
+}
+else if(numeroTabuada == 3){
     let i = 0
     while(i <= 10){
         console.log(`${numeroTabuada} X ${i} = ${numeroTabuada * i}`)
         i++
     }
-}else{
+}
+else{
     console.log("Número incorreto")
 }
